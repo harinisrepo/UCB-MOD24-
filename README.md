@@ -14,12 +14,16 @@ Multiple models were trained, evaluated, and compared using metrics aligned with
 
 ✅ Findings
 After cleaning, feature engineering, dimensionality reduction, and class imbalance handling, the following results were achieved:
-Model	FN	FP	Escape (%)	Overkill (%)	AUC
-Logistic Regression (Balanced)	0	874	0.00%	98.31%	0.682
-SVM (Balanced)	9	261	31.03%	29.36%	0.749
-Decision Tree (Balanced)	7	305	24.14%	34.31%	0.781
-Gradient Boosting	15	57	51.72%	6.41%	0.807
-✅ XGBoost	0	852	0.00% ✅	95.84%	0.809
+### Model Comparison
+
+| Model | FN | FP | Escape (%) | Overkill (%) | AUC |
+|------|----|----|------------|--------------|------|
+| Logistic Regression (Balanced) | 0 | 874 | 0.00% | 98.31% | 0.682 |
+| SVM (Balanced) | 9 | 261 | 31.03% | 29.36% | 0.749 |
+| Decision Tree (Balanced) | 7 | 305 | 24.14% | 34.31% | 0.781 |
+| Gradient Boosting | 15 | 57 | 51.72% | 6.41% | 0.807 |
+| ✅ XGBoost | **0** | **852** | **0.00% ✅** | 95.84% | 0.809 |
+
 
 ✅ ROC Curve Interpretation
 From the ROC curve provided:
