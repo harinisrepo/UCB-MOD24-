@@ -152,7 +152,7 @@ Models were evaluated using:
 	• XGBoost provides best tradeoff between FN, FP, and AUC
 
 ✅ Project Structure
-	• Jupyter Notebook: Complete modeling pipeline
+	• Jupyter Notebook: Complete modeling pipeline: https://github.com/harinisrepo/UCB-MOD24-.git
   Project Input file: https://drive.google.com/file/d/1tPveQCpECjwQpfxFykbD2mr2LwT2hL2V/view?usp=sharing
 	• README: Summary of findings and conclusions
 
